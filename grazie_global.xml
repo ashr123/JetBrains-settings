@@ -167,6 +167,7 @@
         <option name="suppressed">
           <set>
             <option value="requested" />
+            <option value="noinspection" />
           </set>
         </option>
       </SuppressingContext>
