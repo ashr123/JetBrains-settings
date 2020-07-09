@@ -7,7 +7,6 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="data" type="PLAIN_TEXT" />
-      <mapping ext="db" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
