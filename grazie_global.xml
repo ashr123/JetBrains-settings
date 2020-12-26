@@ -153,8 +153,8 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="requested" />
             <option value="noinspection" />
+            <option value="requested" />
           </set>
         </option>
       </SuppressingContext>
