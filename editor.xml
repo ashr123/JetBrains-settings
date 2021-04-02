@@ -1,15 +1,77 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="selectAutopopupSuggestionsByChars" value="true" />
+    <option name="SHOW_INFERRED_ANNOTATIONS_INLINE" value="true" />
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="JAVADOC_INFO_DELAY" value="500" />
+    <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+    <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="SHOW_METHOD_SEPARATORS" value="true" />
+  </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="18" />
+    <option name="FONT_SIZE" value="14" />
+    <option name="LINE_SPACING" value="1.0" />
+    <option name="USE_LIGATURES" value="true" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="SHOW_INSPECTION_WIDGET" value="false" />
+    <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_LEADING_WHITESPACES_SHOWN" value="false" />
     <option name="IS_INNER_WHITESPACES_SHOWN" value="false" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
-  <component name="JSEditorOptions">
-    <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <settingsMapElement>
+      <JAVA.JavaLens>
+        <JavaLensSettings>
+          <option name="showImplementations" value="true" />
+          <option name="showUsages" value="true" />
+        </JavaLensSettings>
+      </JAVA.JavaLens>
+      <JAVA.chain.hints>
+        <Settings>
+          <option name="uniqueTypeCount" value="1" />
+        </Settings>
+      </JAVA.chain.hints>
+      <JAVA.annotation.hints>
+        <Settings>
+          <option name="showInferred" value="true" />
+        </Settings>
+      </JAVA.annotation.hints>
+      <JavaScript.js.chain.hints>
+        <Settings>
+          <option name="uniqueTypeCount" value="1" />
+        </Settings>
+      </JavaScript.js.chain.hints>
+      <JavaScript.js.type.hints>
+        <Settings>
+          <option name="showForFunctions" value="true" />
+          <option name="showForShorthandFunctions" value="true" />
+          <option name="showForVariablesAndFields" value="true" />
+        </Settings>
+      </JavaScript.js.type.hints>
+      <TypeScript.ts.chain.hints>
+        <Settings>
+          <option name="uniqueTypeCount" value="1" />
+        </Settings>
+      </TypeScript.ts.chain.hints>
+      <TypeScript.ts.type.hints>
+        <Settings>
+          <option name="showForFunctions" value="true" />
+          <option name="showForShorthandFunctions" value="true" />
+          <option name="showForVariablesAndFields" value="true" />
+        </Settings>
+      </TypeScript.ts.type.hints>
+    </settingsMapElement>
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
