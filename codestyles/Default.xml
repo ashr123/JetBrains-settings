@@ -46,6 +46,10 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
+    <option name="BRACE_STYLE" value="2" />
+    <option name="CLASS_BRACE_STYLE" value="2" />
+    <option name="METHOD_BRACE_STYLE" value="2" />
+    <option name="LAMBDA_BRACE_STYLE" value="2" />
     <option name="SPACE_AFTER_TYPE_CAST" value="false" />
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
