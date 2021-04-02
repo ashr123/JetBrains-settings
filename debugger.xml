@@ -1,5 +1,6 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="SKIP_GETTERS" value="true" />
     <option name="WATCH_RETURN_VALUES" value="true" />
     <option name="AUTO_VARIABLES_MODE" value="true" />
     <filter>
@@ -340,6 +341,7 @@
   </component>
   <component name="NodeRendererSettings">
     <Renderer ID="ClassRenderer">
+      <option name="SHOW_STATIC" value="true" />
       <option name="SHOW_DECLARED_TYPE" value="true" />
     </Renderer>
   </component>
@@ -358,11 +360,6 @@
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
-        </configuration>
-      </debugger>
-      <debugger id="kotlin_debugger">
-        <configuration>
-          <option name="filterForStdlibAlreadyAdded" value="true" />
         </configuration>
       </debugger>
     </debuggers>
