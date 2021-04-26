@@ -1,6 +1,5 @@
 <application>
   <component name="CodeInsightSettings">
-    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="HIGHLIGHT_SCOPE" value="true" />
   </component>
@@ -12,92 +11,14 @@
     <option name="USE_LIGATURES" value="true" />
   </component>
   <component name="EditorSettings">
-    <option name="languageBreadcrumbsMap">
-      <map>
-        <entry key="CSS" value="true" />
-        <entry key="FTL" value="true" />
-        <entry key="Groovy" value="true" />
-        <entry key="HTML" value="true" />
-        <entry key="Haml" value="true" />
-        <entry key="JAVA" value="true" />
-        <entry key="JSON" value="true" />
-        <entry key="JSP" value="true" />
-        <entry key="JSPX" value="true" />
-        <entry key="JavaScript" value="true" />
-        <entry key="LESS" value="true" />
-        <entry key="SASS" value="true" />
-        <entry key="SCSS" value="true" />
-        <entry key="SQL" value="true" />
-        <entry key="Stylus" value="true" />
-        <entry key="TypeScript" value="true" />
-        <entry key="VTL" value="true" />
-        <entry key="XHTML" value="true" />
-        <entry key="XML" value="true" />
-        <entry key="kotlin" value="true" />
-        <entry key="yaml" value="true" />
-      </map>
-    </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
-    <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
     <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_INNER_WHITESPACES_SHOWN" value="false" />
   </component>
-  <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="microservices.url.path.inlay.hints" />
-    <settingsMapElement>
-      <JAVA.chain.hints>
-        <Settings>
-          <option name="uniqueTypeCount" value="1" />
-        </Settings>
-      </JAVA.chain.hints>
-      <JAVA.annotation.hints>
-        <Settings>
-          <option name="showInferred" value="true" />
-        </Settings>
-      </JAVA.annotation.hints>
-      <JAVA.JavaLens>
-        <JavaCodeVisionSettings>
-          <option name="showImplementations" value="true" />
-          <option name="showUsages" value="true" />
-        </JavaCodeVisionSettings>
-      </JAVA.JavaLens>
-      <JavaScript.js.chain.hints>
-        <Settings>
-          <option name="uniqueTypeCount" value="1" />
-        </Settings>
-      </JavaScript.js.chain.hints>
-      <JavaScript.js.type.hints>
-        <Settings>
-          <option name="showForFunctions" value="true" />
-          <option name="showForShorthandFunctions" value="true" />
-          <option name="showForVariablesAndFields" value="true" />
-        </Settings>
-      </JavaScript.js.type.hints>
-      <kotlin.KotlinReferencesTypeHintsProvider>
-        <Settings>
-          <option name="functionReturnType" value="true" />
-          <option name="localVariableType" value="true" />
-          <option name="parameterType" value="true" />
-          <option name="propertyType" value="true" />
-        </Settings>
-      </kotlin.KotlinReferencesTypeHintsProvider>
-      <TypeScript.ts.chain.hints>
-        <Settings>
-          <option name="uniqueTypeCount" value="1" />
-        </Settings>
-      </TypeScript.ts.chain.hints>
-      <TypeScript.ts.type.hints>
-        <Settings>
-          <option name="showForFunctions" value="true" />
-          <option name="showForShorthandFunctions" value="true" />
-          <option name="showForVariablesAndFields" value="true" />
-        </Settings>
-      </TypeScript.ts.type.hints>
-    </settingsMapElement>
-  </component>
-  <component name="JSEditorOptions">
-    <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
