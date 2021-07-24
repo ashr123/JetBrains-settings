@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="terminal3001" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/System/Applications/Utilities/Terminal.app" />
+      <option name="PARAMETERS" value="~/neo4j-community-4.1.1.3001/bin/neo4j start" />
+      <option name="WORKING_DIRECTORY" value="/System/Applications/Utilities" />
+    </exec>
+  </tool>
+</toolSet>
