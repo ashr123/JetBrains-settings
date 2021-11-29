@@ -1,6 +1,18 @@
 <application>
+  <component name="DebuggerSettings">
+    <option name="SKIP_GETTERS" value="true" />
+    <option name="WATCH_RETURN_VALUES" value="true" />
+    <option name="AUTO_VARIABLES_MODE" value="true" />
+  </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general />
+    <debuggers>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+    </debuggers>
   </component>
 </application>
