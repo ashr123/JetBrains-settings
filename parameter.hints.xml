@@ -13,6 +13,7 @@
         <removed pattern="(message)" />
         <removed pattern="(message, error)" />
         <removed pattern="*Exception" />
+        <removed pattern="*.set*(*)" />
         <removed pattern="*.add(*)" />
         <removed pattern="*.set(*,*)" />
         <removed pattern="*.get(*)" />
@@ -29,9 +30,24 @@
         <removed pattern="*.endsWith(*)" />
         <removed pattern="*.equals(*)" />
         <removed pattern="*.equal(*)" />
+        <removed pattern="*.compareTo(*)" />
+        <removed pattern="*.compare(*,*)" />
         <removed pattern="java.lang.Math.*" />
         <removed pattern="org.slf4j.Logger.*" />
+        <removed pattern="*.singleton(*)" />
+        <removed pattern="*.singletonList(*)" />
+        <removed pattern="*.Set.of" />
+        <removed pattern="*.ImmutableList.of" />
+        <removed pattern="*.ImmutableMultiset.of" />
+        <removed pattern="*.ImmutableSortedMultiset.of" />
+        <removed pattern="*.ImmutableSortedSet.of" />
+        <removed pattern="*.Arrays.asList" />
       </blacklist>
     </blacklists>
+    <option id="java.multiple.params.same.type" value="true" />
+    <option id="java.build.like.method" value="true" />
+    <option id="java.simple.sequentially.numbered" value="true" />
+    <option id="java.clear.expression.type" value="true" />
+    <option id="java.method.name.contains.parameter.name" value="true" />
   </component>
 </application>
