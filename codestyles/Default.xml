@@ -4,6 +4,7 @@
       <option name="USE_TAB_CHARACTER" value="true" />
     </value>
   </option>
+  <option name="LINE_SEPARATOR" value="&#10;" />
   <JSCodeStyleSettings version="0">
     <option name="FUNCTION_EXPRESSION_BRACE_STYLE" value="2" />
   </JSCodeStyleSettings>
